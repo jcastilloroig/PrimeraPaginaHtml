@@ -1,0 +1,84 @@
+div {
+/*
+>>>> fer un quadrat
+height: ;
+width: ;
+margin-left: ;
+>>>>> float: left;
+margin-bottom: ;
+text-align: ;
+padding: ;
+margin-top: ;
+background-color: #FFFFFF;
+border: 2px solid #000;
+*/
+height: 120px;
+width: 120px;
+margin-left: 50px;
+float: left;
+margin-bottom: 20px;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+background-color: #FFFFFF;
+border: 2px solid #000;
+}
+
+/*fer un quadrat*/
+.modA {
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
+}
+.modB {
+	border-top-right-radius: 15px;
+}
+.modC {
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
+}
+.modD {
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+.modE {
+border-top-right-radius: 40% 20%;
+}
+.modF {
+border-bottom-left-radius: 30px;
+}
+.modG {
+border-bottom-left-radius: 90px;
+border-bottom-right-radius: 90px;
+border-top-left-radius: 90px;
+border-top-right-radius: 90px;
+}
+.modH {
+border-top-left-radius: 90px;
+border-top-right-radius: 90px;
+	
+}
+.modI {
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.modJ {
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.modK {
+border-top-right-radius: 90px;
+border-bottom-left-radius: 90px;
+}
+.modL {
+border-top-left-radius: 50% 20%;
+border-top-right-radius: 50% 20%;
+border-bottom-left-radius: 50% 20%;
+border-bottom-right-radius: 50% 20%;
+
+
+
+}

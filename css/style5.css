@@ -1,0 +1,55 @@
+body, html {
+height: 100%;
+width: 100%;
+margin: 0px;
+padding: 0px;
+} /* El grupo main da unos valores a los elementos que estan dentro de el
+   * Le da una altura (height) de un 80%
+   * Display especificamos como queremos que se coloquen los objetos en la pagina
+   * Webkit da compatibilidad a los navegadores
+   * Flex row especificamos que los objetos deberan colocarse de forma horizontal y uno junto al otro
+
+  */
+#main {
+
+height: 80%;
+display: -webkit-flex;
+display: flex;
+flex-flow: row;
+order: 1;
+}
+#main aside {
+background: #CCF;
+flex: 1 6 20%;
+order: 1;
+}
+
+#main2 {
+flex: 3 1 40%;
+order: 2;
+min-width: 66%;
+
+}
+/* Asigna al article una altura minima de un 90% y un color de fondo  */
+#main2 article {
+background: #CFC;
+min-height: 90%;
+
+}
+/* Asigna al footer una altura minima de un 12.5% y un color de fondo  */
+#main2 footer {
+background: blue;
+min-height: 10%;
+
+}
+/* Asigna al header y al nav una altura minima de un 10% y un color de fondo */
+header {
+display: block;
+min-height: 10%;
+background: #FC6;
+}
+nav {
+display: block;
+min-height: 10%;
+background:white;
+}
